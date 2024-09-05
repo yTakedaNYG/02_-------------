@@ -1,51 +1,46 @@
 --*******************************************
 -- Sample
--- SELECT * INTO Table_2 --ƒRƒs[æ
--- FROM Table_1 --ƒRƒs[Œ³
+-- SELECT * INTO Table_2 --ã‚³ãƒ”ãƒ¼å…ˆ
+-- FROM Table_1 --ã‚³ãƒ”ãƒ¼å…ƒ
 
 --*******************************************
 -- 2024-06-13 t.jinbo
--- à–¾F120.6‚ÌDB‚É120.13‚Ìƒ[ƒJƒ‹ƒe[ƒuƒ‹‚ðƒRƒs[‚·‚é‚½‚ß‚ÌSQL•¶i‰‰ñ‚Ì‚Ý@ˆÈ~‚ÍƒXƒgƒAƒh‚ÅŒp‚¬‘«‚µ‚³‚¹‚éj
--- ’ˆÓF120.6 cocktail ƒf[ƒ^ƒx[ƒX‚ÅŽÀs‚·‚é
+-- èª¬æ˜Žï¼š120.6ã®DBã«120.13ã®ãƒ­ãƒ¼ã‚«ãƒ«ãƒ†ãƒ¼ãƒ–ãƒ«ã‚’ã‚³ãƒ”ãƒ¼ã™ã‚‹ãŸã‚ã®SQLæ–‡ï¼ˆåˆå›žã®ã¿ã€€ä»¥é™ã¯ã‚¹ãƒˆã‚¢ãƒ‰ã§ç¶™ãŽè¶³ã—ã•ã›ã‚‹ï¼‰
+-- æ³¨æ„ï¼š120.6 cocktail ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹ã§å®Ÿè¡Œã™ã‚‹
 --*******************************************
 
 --w_JDNTHA_BF2M
-SELECT * 
+SELECT *
 INTO [cocktail].[dbo].[w_JDNTHA_BF2M]
 FROM [ORCL-LINK].ORCLLINK.[dbo].[w_JDNTHA_BF2M]
 ;
 
 --w_JDNTRA_BF2M
-SELECT * 
+SELECT *
 INTO [cocktail].[dbo].[w_JDNTRA_BF2M]
 FROM [ORCL-LINK].ORCLLINK.[dbo].[w_JDNTRA_BF2M]
 ;
 
 --w_ODNTHA_BF2M
-SELECT * 
+SELECT *
 INTO [cocktail].[dbo].[w_ODNTHA_BF2M]
 FROM [ORCL-LINK].ORCLLINK.[dbo].[w_ODNTHA_BF2M]
 ;
 
 --w_ODNTRA_BF2M
-SELECT * 
+SELECT *
 INTO [cocktail].[dbo].[w_ODNTRA_BF2M]
 FROM [ORCL-LINK].ORCLLINK.[dbo].[w_ODNTRA_BF2M]
 ;
 
 --w_UDNTHA_BF2M
-SELECT * 
+SELECT *
 INTO [cocktail].[dbo].[w_UDNTHA_BF2M]
 FROM [ORCL-LINK].ORCLLINK.[dbo].[w_UDNTHA_BF2M]
 ;
 
 --w_UDNTRA_BF2M
-SELECT * 
+SELECT *
 INTO [cocktail].[dbo].[w_UDNTRA_BF2M]
 FROM [ORCL-LINK].ORCLLINK.[dbo].[w_UDNTRA_BF2M]
 ;
-
-
-
-
-
